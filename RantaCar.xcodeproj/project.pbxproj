@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ECA921028F746BF00FAC086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA920F28F746BF00FAC086 /* AppDelegate.swift */; };
+		4ECA921228F746BF00FAC086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA921128F746BF00FAC086 /* SceneDelegate.swift */; };
+		4ECA921428F746BF00FAC086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA921328F746BF00FAC086 /* ViewController.swift */; };
+		4ECA921728F746BF00FAC086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA921528F746BF00FAC086 /* Main.storyboard */; };
+		4ECA921A28F746BF00FAC086 /* RantaCar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA921828F746BF00FAC086 /* RantaCar.xcdatamodeld */; };
+		4ECA921C28F746C000FAC086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA921B28F746C000FAC086 /* Assets.xcassets */; };
+		4ECA921F28F746C000FAC086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA921D28F746C000FAC086 /* LaunchScreen.storyboard */; };
+		4ECA922A28F746C000FAC086 /* RantaCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA922928F746C000FAC086 /* RantaCarTests.swift */; };
+		4ECA923428F746C000FAC086 /* RantaCarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA923328F746C000FAC086 /* RantaCarUITests.swift */; };
+		4ECA923628F746C000FAC086 /* RantaCarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECA923528F746C000FAC086 /* RantaCarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ECA922628F746C000FAC086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECA920428F746BF00FAC086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECA920B28F746BF00FAC086;
+			remoteInfo = RantaCar;
+		};
+		4ECA923028F746C000FAC086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECA920428F746BF00FAC086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECA920B28F746BF00FAC086;
+			remoteInfo = RantaCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ECA920C28F746BF00FAC086 /* RantaCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RantaCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECA920F28F746BF00FAC086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ECA921128F746BF00FAC086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4ECA921328F746BF00FAC086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ECA921628F746BF00FAC086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ECA921928F746BF00FAC086 /* RantaCar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RantaCar.xcdatamodel; sourceTree = "<group>"; };
+		4ECA921B28F746C000FAC086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ECA921E28F746C000FAC086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ECA922028F746C000FAC086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECA922528F746C000FAC086 /* RantaCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RantaCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECA922928F746C000FAC086 /* RantaCarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RantaCarTests.swift; sourceTree = "<group>"; };
+		4ECA922F28F746C000FAC086 /* RantaCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RantaCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECA923328F746C000FAC086 /* RantaCarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RantaCarUITests.swift; sourceTree = "<group>"; };
+		4ECA923528F746C000FAC086 /* RantaCarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RantaCarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ECA920928F746BF00FAC086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA922228F746C000FAC086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA922C28F746C000FAC086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ECA920328F746BF00FAC086 = {
+			isa = PBXGroup;
+			children = (
+				4ECA920E28F746BF00FAC086 /* RantaCar */,
+				4ECA922828F746C000FAC086 /* RantaCarTests */,
+				4ECA923228F746C000FAC086 /* RantaCarUITests */,
+				4ECA920D28F746BF00FAC086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ECA920D28F746BF00FAC086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA920C28F746BF00FAC086 /* RantaCar.app */,
+				4ECA922528F746C000FAC086 /* RantaCarTests.xctest */,
+				4ECA922F28F746C000FAC086 /* RantaCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ECA920E28F746BF00FAC086 /* RantaCar */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA920F28F746BF00FAC086 /* AppDelegate.swift */,
+				4ECA921128F746BF00FAC086 /* SceneDelegate.swift */,
+				4ECA921328F746BF00FAC086 /* ViewController.swift */,
+				4ECA921528F746BF00FAC086 /* Main.storyboard */,
+				4ECA921B28F746C000FAC086 /* Assets.xcassets */,
+				4ECA921D28F746C000FAC086 /* LaunchScreen.storyboard */,
+				4ECA922028F746C000FAC086 /* Info.plist */,
+				4ECA921828F746BF00FAC086 /* RantaCar.xcdatamodeld */,
+			);
+			path = RantaCar;
+			sourceTree = "<group>";
+		};
+		4ECA922828F746C000FAC086 /* RantaCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA922928F746C000FAC086 /* RantaCarTests.swift */,
+			);
+			path = RantaCarTests;
+			sourceTree = "<group>";
+		};
+		4ECA923228F746C000FAC086 /* RantaCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECA923328F746C000FAC086 /* RantaCarUITests.swift */,
+				4ECA923528F746C000FAC086 /* RantaCarUITestsLaunchTests.swift */,
+			);
+			path = RantaCarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ECA920B28F746BF00FAC086 /* RantaCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECA923928F746C000FAC086 /* Build configuration list for PBXNativeTarget "RantaCar" */;
+			buildPhases = (
+				4ECA920828F746BF00FAC086 /* Sources */,
+				4ECA920928F746BF00FAC086 /* Frameworks */,
+				4ECA920A28F746BF00FAC086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RantaCar;
+			productName = RantaCar;
+			productReference = 4ECA920C28F746BF00FAC086 /* RantaCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ECA922428F746C000FAC086 /* RantaCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECA923C28F746C000FAC086 /* Build configuration list for PBXNativeTarget "RantaCarTests" */;
+			buildPhases = (
+				4ECA922128F746C000FAC086 /* Sources */,
+				4ECA922228F746C000FAC086 /* Frameworks */,
+				4ECA922328F746C000FAC086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECA922728F746C000FAC086 /* PBXTargetDependency */,
+			);
+			name = RantaCarTests;
+			productName = RantaCarTests;
+			productReference = 4ECA922528F746C000FAC086 /* RantaCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ECA922E28F746C000FAC086 /* RantaCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECA923F28F746C000FAC086 /* Build configuration list for PBXNativeTarget "RantaCarUITests" */;
+			buildPhases = (
+				4ECA922B28F746C000FAC086 /* Sources */,
+				4ECA922C28F746C000FAC086 /* Frameworks */,
+				4ECA922D28F746C000FAC086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECA923128F746C000FAC086 /* PBXTargetDependency */,
+			);
+			name = RantaCarUITests;
+			productName = RantaCarUITests;
+			productReference = 4ECA922F28F746C000FAC086 /* RantaCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ECA920428F746BF00FAC086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4ECA920B28F746BF00FAC086 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					4ECA922428F746C000FAC086 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4ECA920B28F746BF00FAC086;
+					};
+					4ECA922E28F746C000FAC086 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4ECA920B28F746BF00FAC086;
+					};
+				};
+			};
+			buildConfigurationList = 4ECA920728F746BF00FAC086 /* Build configuration list for PBXProject "RantaCar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ECA920328F746BF00FAC086;
+			productRefGroup = 4ECA920D28F746BF00FAC086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ECA920B28F746BF00FAC086 /* RantaCar */,
+				4ECA922428F746C000FAC086 /* RantaCarTests */,
+				4ECA922E28F746C000FAC086 /* RantaCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ECA920A28F746BF00FAC086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA921F28F746C000FAC086 /* LaunchScreen.storyboard in Resources */,
+				4ECA921C28F746C000FAC086 /* Assets.xcassets in Resources */,
+				4ECA921728F746BF00FAC086 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA922328F746C000FAC086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA922D28F746C000FAC086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECA920828F746BF00FAC086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA921428F746BF00FAC086 /* ViewController.swift in Sources */,
+				4ECA921A28F746BF00FAC086 /* RantaCar.xcdatamodeld in Sources */,
+				4ECA921028F746BF00FAC086 /* AppDelegate.swift in Sources */,
+				4ECA921228F746BF00FAC086 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA922128F746C000FAC086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA922A28F746C000FAC086 /* RantaCarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECA922B28F746C000FAC086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECA923628F746C000FAC086 /* RantaCarUITestsLaunchTests.swift in Sources */,
+				4ECA923428F746C000FAC086 /* RantaCarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ECA922728F746C000FAC086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECA920B28F746BF00FAC086 /* RantaCar */;
+			targetProxy = 4ECA922628F746C000FAC086 /* PBXContainerItemProxy */;
+		};
+		4ECA923128F746C000FAC086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECA920B28F746BF00FAC086 /* RantaCar */;
+			targetProxy = 4ECA923028F746C000FAC086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ECA921528F746BF00FAC086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECA921628F746BF00FAC086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ECA921D28F746C000FAC086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECA921E28F746C000FAC086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ECA923728F746C000FAC086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ECA923828F746C000FAC086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ECA923A28F746C000FAC086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CGU8LBPL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RantaCar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusufpeltek.RantaCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ECA923B28F746C000FAC086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CGU8LBPL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RantaCar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusufpeltek.RantaCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ECA923D28F746C000FAC086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CGU8LBPL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusufpeltek.RantaCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RantaCar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RantaCar";
+			};
+			name = Debug;
+		};
+		4ECA923E28F746C000FAC086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CGU8LBPL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusufpeltek.RantaCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RantaCar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RantaCar";
+			};
+			name = Release;
+		};
+		4ECA924028F746C000FAC086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CGU8LBPL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusufpeltek.RantaCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RantaCar;
+			};
+			name = Debug;
+		};
+		4ECA924128F746C000FAC086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CGU8LBPL4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yusufpeltek.RantaCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RantaCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ECA920728F746BF00FAC086 /* Build configuration list for PBXProject "RantaCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA923728F746C000FAC086 /* Debug */,
+				4ECA923828F746C000FAC086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECA923928F746C000FAC086 /* Build configuration list for PBXNativeTarget "RantaCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA923A28F746C000FAC086 /* Debug */,
+				4ECA923B28F746C000FAC086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECA923C28F746C000FAC086 /* Build configuration list for PBXNativeTarget "RantaCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA923D28F746C000FAC086 /* Debug */,
+				4ECA923E28F746C000FAC086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECA923F28F746C000FAC086 /* Build configuration list for PBXNativeTarget "RantaCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECA924028F746C000FAC086 /* Debug */,
+				4ECA924128F746C000FAC086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4ECA921828F746BF00FAC086 /* RantaCar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4ECA921928F746BF00FAC086 /* RantaCar.xcdatamodel */,
+			);
+			currentVersion = 4ECA921928F746BF00FAC086 /* RantaCar.xcdatamodel */;
+			path = RantaCar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4ECA920428F746BF00FAC086 /* Project object */;
+}
